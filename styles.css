@@ -1,4 +1,57 @@
-.homeinfo img {
+body {
+}
+.homeimgs img {
     height: 200px;
     width: 200px;
+    border-radius: 25px;
+   
+}
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.homeimgs {
+    display: flex;
+}
+.homeimgs p {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.title{
+    display: flex;
+   color: aliceblue;
+    background-color: #1F2937;
+    
+}
+.title img {
+    height: 300px;
+}
+.header {
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    align-items: center;
+}
+.header-links {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+}
+.header-links li {
+    display: inline;
+    padding: 10px;
+}
+.middlecontent h1 {
+    text-align: center;
 }
